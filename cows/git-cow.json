@@ -1,0 +1,6 @@
+{
+    "name": "Gitty",
+    "breed": "Git Highland",
+    "image": "images/gitty.png",
+    "description": "A cow with no purpose other than to practice git."
+}
