@@ -1,6 +1,6 @@
 {
-  "name": "Momo",
-  "breed": "Meadowhorn",
-  "image": "images/momo.png",
-  "description": "A whimsical meadowhorn cow that races karts across Moo Moo Meadows."
+    "name": "Momo",
+    "breed": "Meadowhorn",
+    "image": "images/momo.png",
+    "description": "A whimsical meadowhorn cow that races karts across Moo Moo Meadows."
 }
