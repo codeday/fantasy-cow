@@ -1,7 +1,6 @@
 {
     "name": "Flare",
     "breed": "Solar",
-    "image": "images/flare.jpg",
+    "image": "images/Flare.jpg",
     "description": "A Blazing cow made of solar radiation",
-    "type": "module"
 }
