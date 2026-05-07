@@ -1,6 +1,6 @@
 {
-  "name": "Sprinkles",
-  "breed": "Cotton Candy",
-  "image": "images/sprinkles_cow.png",
-  "description": "A fun and cheerful cotton candy cow that is covered in confetti and candy bits!"
+    "name": "Sprinkles",
+    "breed": "Cotton Candy",
+    "image": "images/sprinkles.png",
+    "description": "A fun and cheerful cotton candy cow that is covered in confetti and candy bits!"
 }
