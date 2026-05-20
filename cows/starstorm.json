@@ -1,7 +1,7 @@
 {
     "name": "StarStorm",
     "breed": "Storm cow",
-    "image": "images/StarStorm.jpg",
+    "image": "images/starstorm.jpg",
     "description": "A powered cow that races through heavy storms."
 
 }
