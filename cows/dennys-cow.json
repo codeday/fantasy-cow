@@ -1,6 +1,6 @@
 {
-  "name": "Bow",
-  "breed": "Cute Cow",
-  "image": "images/dennys-cow.webp",
-  "description": "A gentle cosmic cow that glows softly under starlight."
+    "name": "Bow",
+    "breed": "Cute Cow",
+    "image": "images/bow.png", 
+    "description": "A gentle cosmic cow that glows softly under starlight."
 }
