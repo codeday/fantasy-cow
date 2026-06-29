@@ -1,6 +1,6 @@
 {
-  "name": "Shiny",
-  "breed": "Star",
-  "image": "images/shiny.png",
-  "description": "A cow that shines brightly like a star"
+    "name": "Shiny",
+    "breed": "Star",
+    "image": "images/shiny.png",
+    "description": "A cow that shines brightly like a star."
 }
