@@ -1,6 +1,6 @@
 {
-  "name": "galactic_cow",
-  "breed": "vitrumite",
-  "image": "images/galactic_cow.jpg",
-  "description": "Coated in a deep violet fur that shifts like the night sky with stars as spots"
+    "name": "galactic_cow",
+    "breed": "vitrumite",
+    "image": "images/galactic_cow.jpg",
+    "description": "Coated in a deep violet fur that shifts like the night sky with stars as spots."
 }
