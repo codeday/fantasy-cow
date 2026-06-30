@@ -1,6 +1,6 @@
 {
     "name": "Flying Cow",
     "breed": "Longhorn",
-    "image": "images/flyingcow.png",
+    "image": "images/flying_cow.png",
     "description": "A cow that flies around and rains milk down below. "
 }
