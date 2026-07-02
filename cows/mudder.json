@@ -1,6 +1,6 @@
 {
-  "name": "Mudder",
-  "breed": "Ground",
-  "image": "images/mudder.png",
-  "description": "A dirty cow that has mud infused into it skin."
+    "name": "Mudder",
+    "breed": "Ground",
+    "image": "images/mudder.png",
+    "description": "A dirty cow that has mud infused into it skin."
 }
