@@ -1,5 +1,8 @@
 import { Octokit } from "@octokit/rest";
-import { isCowJsonFile } from "./validation-helpers.js";
+import {
+    isCowJsonFile,
+    isValidatorMaintenancePullRequest
+} from "./validation-helpers.js";
 
 // Environment variables
 const token = process.env.GITHUB_TOKEN;
@@ -45,6 +48,11 @@ async function run() {
             repo,
             pull_number: pr_number
         });
+
+        if (isValidatorMaintenancePullRequest(files)) {
+            console.log("✅ Validator maintenance PR detected; cow submission checks skipped.");
+            process.exit(0);
+        }
 
         const jsonFiles = files.filter(f => isCowJsonFile(f.filename));
         const imageFiles = files.filter(f => f.filename.startsWith("images/"));
