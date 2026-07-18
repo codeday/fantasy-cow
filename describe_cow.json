@@ -1,6 +1,6 @@
 {
   "name": "Alien",
   "breed": "Combonation",
-  "image": "green_pink_cow.png",
+  "image": "images/green_pink_cow.png",
   "description": "A green and pink cow eating grass in a field."
 }
