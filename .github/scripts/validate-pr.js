@@ -1,4 +1,5 @@
 import { Octokit } from "@octokit/rest";
+import { isCowJsonFile } from "./validation-helpers.js";
 
 // Environment variables
 const token = process.env.GITHUB_TOKEN;
@@ -45,7 +46,7 @@ async function run() {
             pull_number: pr_number
         });
 
-        const jsonFiles = files.filter(f => f.filename.endsWith(".json"));
+        const jsonFiles = files.filter(f => isCowJsonFile(f.filename));
         const imageFiles = files.filter(f => f.filename.startsWith("images/"));
         const requiredKeys = ["name", "breed", "image"];
 

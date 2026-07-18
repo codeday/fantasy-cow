@@ -2,6 +2,10 @@
     "name": "fantasy-cow",
     "version": "1.0.0",
     "description": "A small project that teaches how to create a first Pull Request.",
+    "type": "module",
+    "scripts": {
+        "test": "node --test .github/scripts/*.test.js"
+    },
     "dependencies": {
         "@octokit/rest": "^22.0.0"
     }
