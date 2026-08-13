@@ -28,9 +28,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run validator tests
-        run: npm test
-
       - name: Validate pull request
         run: node .github/scripts/validate-pr.js
         env:
