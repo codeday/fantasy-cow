@@ -45,7 +45,9 @@ async function run() {
             pull_number: pr_number
         });
 
-        const jsonFiles = files.filter(f => f.filename.endsWith(".json"));
+        const jsonFiles = files.filter(
+            f => f.filename.startsWith("cows/") && f.filename.endsWith(".json")
+        );
         const imageFiles = files.filter(f => f.filename.startsWith("images/"));
         const requiredKeys = ["name", "breed", "image"];
 
